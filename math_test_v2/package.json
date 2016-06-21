@@ -1,0 +1,47 @@
+{
+    "author": "MakeAwesomeHappen",
+    "dependencies": {},
+    "keywords": [],
+    "name": "slate-example",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "slate-example",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_COLOR_BLUE": 2,
+            "KEY_COLOR_GREEN": 1,
+            "KEY_COLOR_RED": 0,
+            "KEY_HIGH_CONTRAST": 3
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/digital-7.ttf",
+                    "name": "FONT_DIGITAL_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/digital-7.ttf",
+                    "name": "FONT_DIGITAL_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "a2ae5e8d-42b0-4f63-a967-b9fe6d1dfeaa",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,51 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk"
+    ], 
+    "projectType": "native", 
+    "messageKeys": {
+        "KEY_COLOR_RED": 0, 
+        "KEY_COLOR_BLUE": 2, 
+        "KEY_HIGH_CONTRAST": 3, 
+        "KEY_COLOR_GREEN": 1
+    }, 
+    "companyName": "samusaron@hotmail.com", 
+    "enableMultiJS": false, 
+    "versionLabel": "1.0", 
+    "longName": "watch_math", 
+    "shortName": "watch_math", 
+    "name": "watch_math", 
+    "sdkVersion": "3", 
+    "displayName": "watch_math", 
+    "uuid": "341c9d2f-5748-4c37-9dd6-7c3fe6022fce", 
+    "appKeys": {
+        "KEY_COLOR_RED": 0, 
+        "KEY_COLOR_BLUE": 2, 
+        "KEY_HIGH_CONTRAST": 3, 
+        "KEY_COLOR_GREEN": 1
+    }, 
+    "capabilities": [
+        "configurable"
+    ], 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "resources": {
+        "media": [
+            {
+                "targetPlatforms": null, 
+                "type": "font", 
+                "name": "FONT_DIGITAL_20", 
+                "file": "fonts/digital-7.ttf"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "font", 
+                "name": "FONT_DIGITAL_48", 
+                "file": "fonts/digital-7.ttf"
+            }
+        ]
+    }
+}
